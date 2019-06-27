@@ -19,10 +19,7 @@ h1 {
     font-size: 54px;
     margin-bottom: 1rem;
 }
-h3 {
-    margin-bottom: 1rem;
-}
-p {
+h3, h4, p {
     margin-bottom: 1rem;
 }
 .text-center {
@@ -95,9 +92,40 @@ li a {
 
 /* Intro */
 .intro {  
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .intro img {
     padding: 15px 0;
+}
+
+/* Transportation */
+.transportation .column-left {
+    width: 32%;
+    float: left;
+}
+.transportation .column-middle {
+    width: 32%;
+    float: left;
+    margin: 0 2%;
+}
+.transportation .column-right {
+    width: 32%;
+    float: right;
+}
+
+/* Card */
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.card img {
+    border-radius:  8px 8px 0 0;
+}
+.card-body {
+    padding: 15px;
+}
+.card .button {
+    width: 100%;
 }
