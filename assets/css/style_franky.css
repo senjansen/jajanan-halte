@@ -2,14 +2,12 @@ html {
     background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
 }
   
-
 body {
     font-size: 20px;
     font-family: Roboto;
 }
 
 .header {
-    background-image: url("https://recruitment.krl.co.id/homeimg/slide_4.jpg");
     height: 100px;
     width: 1050px;
     background-position: center center;
@@ -47,6 +45,7 @@ body {
     border: 3px solid orangered;
     border-radius: 15px;
     width: 1000px;
+    left: 10px;
     position: relative;
 }
 
