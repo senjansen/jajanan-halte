@@ -6,22 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>KRL - Jajanan Halte</title>
         
-        <div class="header">
-                <h1>Jajanan Halte KRL (Comuterline)</h1>
-            </div>
-
-        <div class="kota"><h2>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#bekasi">Bekasi</a></li>
-                    <li><a href="#manggarai">Manggarai</a></li>
-                    <li><a href="#cikini">Cikini</a></li>
-                    <li><a href="#gondangdia">Gondangdia</a></li>
-                    <li><a href="#bogor">Bogor</a></li>
-                </ul>
-        </h2></div>
+        
+        
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 
         <link href="assets/css/style_franky.css" type="text/css" rel="stylesheet">
     </head>
@@ -29,6 +16,32 @@
 <!--Stasiun dan Kulinernya-->    
 
     <body>
+            <div id="header">
+                    <div class="container">
+                        <div id="logo">
+                            <a href="/">JajananHalte</a>
+                        </div>
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="#">Menu 1</a></li>
+                                <li><a href="#">Menu 2</a></li>
+                                <li><a href="#">Menu 3</a></li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+    <div class="container2">        
+                <div class="kota"><h2>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#bekasi">Bekasi</a></li>
+                            <li><a href="#manggarai">Manggarai</a></li>
+                            <li><a href="#cikini">Cikini</a></li>
+                            <li><a href="#gondangdia">Gondangdia</a></li>
+                            <li><a href="#bogor">Bogor</a></li>
+                        </ul>
+                </h2></div>
+
         <div class="bekasi" id="bekasi"><strong>Kuliner Stasiun Bekasi</strong>
         <ul>
             <li>Pempek Gaby
@@ -85,18 +98,19 @@
             </p></a></li>
             </ul>
         </div>
+    </div>
 
 <!--Back to Top Button-->
 
         <a href="#top" id="topp">back to top</a>
         <div class="form">
             <form>
-                <label for="nama">Nama:</label>
-                <input type="text">
+                <label for="nama">Nama:<br></label>
+                <input type="text" placeholder="Nama Kamu">
                 <br>
-                <label for="komentar">Komentar:</label>
+                <label for="komentar">Komentar:<br></label>
                 <textarea name="komentarkamu"row="100" col="100">Komentar Kamu</textarea>
-                <br><label for="emailkamu">Email:</label><input type="text">
+                <br><label for="emailkamu">Email:<br></label><input type="text" placeholder="Email Kamu">
                 <br><input type="submit">
             </form>
         </div>
