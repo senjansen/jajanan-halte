@@ -1,0 +1,66 @@
+html {
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+}
+  
+
+body {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.header {
+    background-image: url("https://recruitment.krl.co.id/homeimg/slide_4.jpg");
+    height: 100px;
+    width: 1050px;
+    background-position: center center;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.75;
+}
+
+
+.bgimg {
+    background-image: url("https://blog.reservasi.com/wp-content/uploads/2017/04/shutterstock_591415301-min.jpg");
+}
+
+.kota li {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgba(255, 68, 0, 0.445);
+    font-style: normal;
+    padding: 5px 5px;
+    border: 2px dotted blue;
+}
+
+#topp {
+    left: 950px;
+    position: relative;
+}
+
+.bekasi,
+.manggarai,
+.cikini,
+.gondangdia,
+.bogor {
+    margin: 30px 30px;
+    padding: 10px 10px;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    width: 1000px;
+    position: relative;
+}
+
+li {
+    font-style: italic;
+    font-weight: 400;
+    color: red;
+}
+
+p {
+    font-style: normal;
+    color: black;
+}
+
+.sumber {
+    text-align: right;
+}
